@@ -2,7 +2,7 @@ function compte_a_rebours()
 {
     var compte_a_rebours = document.getElementById("compte_a_rebours");
     var date_actuelle = new Date();
-    var date_evenement = new Date("2020-04-01 10:30:30");
+    var date_evenement = new Date("2020-12-31 23:59:59");
     var total_secondes = (date_evenement - date_actuelle) / 1000;
     var prefixe = "";
     if (total_secondes < 0)
